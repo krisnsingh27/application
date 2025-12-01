@@ -16,7 +16,7 @@ const Signup = () => {
     age: "",
     gender: "",
     bio: "",
-    hobbies: "",
+    hobbies: [],
   });
 
   const handleChange = (e) => {

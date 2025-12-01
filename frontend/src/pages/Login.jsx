@@ -26,7 +26,7 @@ export default function Login() {
         fontFamily: "Arial"
       }}
     >
-      <h2 style={{ textAlign: "center", marginBottom: 20 }}>Login 💘</h2>
+      <h2 style={{ textAlign: "center", marginBottom: 20 }}>Login</h2>
 
       {isAuthenticated && (
         <p style={{ color: "green", textAlign: "center" }}>✅ Logged In!</p>
@@ -81,7 +81,7 @@ export default function Login() {
             cursor: "pointer"
           }}
         >
-          {loading ? "Logging in..." : "Login 🚀"}
+          {loading ? "Logging in..." : "Login"}
         </button>
       </form>
     </div>

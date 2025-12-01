@@ -13,8 +13,8 @@ function Navbar() {
       <h3>Tinder</h3>
       <div>
         <Link style={{marginRight:"10px", color:"white", textDecoration:"none"}} to="/signup">Signup</Link>
-        <Link style={{color:"white", textDecoration:"none"}} to="/login">Login</Link>
-          <Link style={{color:"white", textDecoration:"none"}} to="/logout">Logout</Link>
+        <Link style={{marginRight:"10px",color:"white", textDecoration:"none"}} to="/login">Login</Link>
+          {/* <Link style={{marginRight:"10px",color:"white", textDecoration:"none"}} to="/logout">Logout</Link> */}
       </div>
     </nav>
   );
